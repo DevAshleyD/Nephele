@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400|Spectral+SC:800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(35deg, #a2adb4 30%, #b9b4ab 70%);
+  margin: 0;
+  padding: 0;
+  font-family: "IM Fell Double Pica", "Trebuchet MS", Tahoma, sans-serif;
+  text-align: center;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+#App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*EXPERIMENTAL TEXT EFFECT */
+#title {
+  background: -webkit-linear-gradient(270deg, #10203a 30%, #fff 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 0px 1px rgb(54, 44, 14));
+}
+
+.cloud-display {
+  background: linear-gradient(165deg, #090909 0%, #527785 100%);
+  box-shadow: inset 2px 2px 15px 4px rgba(0, 0, 0, 0.5);
+}
+
+/**************************/
+/*** INPUTS AND SLIDERS ***/
+/**************************/
+
+#zeus {
+  /* width: 18rem; */
+  position: absolute;
+  width: 10vw;
+  /* top: 8vh; */
+  right: 0;
+  bottom: 0;
+  margin-bottom: 18px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn-bg {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.test {
+  color: rgba(84, 88, 91, 0.5);
+  color: #deddd8;
+  color: #cac8c2;
+  color: #dddcd7;
+  color: #e0e1da;
+  color: #e3e0dc;
+  color: #dddcd8;
+  color: #e0e0d9;
+  color: #c0c0c0;
+}
